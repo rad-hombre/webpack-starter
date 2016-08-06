@@ -1,0 +1,13 @@
+$myGreen: #bada55;
+
+@mixin greenify {
+    background-color: $myGreen;
+}
+
+#target {
+    @include greenify;
+    text-decoration: blinking;
+    font-size: 4em;
+    width: 50%;
+    float: right;
+}
