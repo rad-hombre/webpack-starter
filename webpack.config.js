@@ -19,7 +19,8 @@ module.exports = {
         {
             test: /\.scss$/,   // does this search entire rootDir?
             loader: 'style-loader!css-loader!sass-loader'
-        }]
+        }
+       ]
     },
     devServer: {
         inline: true,
