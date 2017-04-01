@@ -17,7 +17,7 @@ module.exports = {
             }
         },
         {
-            test: /\.scss$/,   // does this search entire rootDir?
+            test: /\.scss$/,   
             loader: 'style-loader!css-loader!sass-loader'
         }
        ]
